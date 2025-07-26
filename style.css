@@ -4,8 +4,13 @@
     --gold-accent: #e3b030;
 }
 
-* {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
+}
+
+* {
     margin: 0;
     padding: 0;
 }
@@ -27,8 +32,28 @@ body {
 }
 
 .sidebar {
+    background-color: var(--blue);
+    padding: 20px;
     grid-column: 1 / 2;
     grid-row: 1 / -1;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.nav-link img {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 /*    HEADER    */
