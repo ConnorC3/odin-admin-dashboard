@@ -8,12 +8,12 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
-            <div>
+        <nav class="sidebar">
+            <div class="dashboard-title">
                 <h2>Dashboard</h2>
             </div>
 
-            <div>
+            <div class="home">
                 <p>Home</p>
                 <p>Profile</p>
                 <p>Messages</p>
@@ -27,30 +27,30 @@
                 <p>Support</p>
                 <p>Privacy</p>
             </div>
-        </div>
+        </nav>
 
         <div class="header">
             <div class="header-top">
                 <div class="search-bar">
                     <img src="#" alt="Search">
-                    <input type="search">
+                    <input type="search" class="search">
                 </div>
+                <img src="#" alt="Notifications">
                 <div class="profile">
-                    <img src="#" alt="Notifications">
                     <img src="#" alt="Profile">
                     <p class="profile-name">Morgan Oakley</p>
                 </div>
             </div>
-            <div class="header-bottom">
+            <div class="header-main">
                 <img src="" alt="Profile Pic">
                 <div class="greeting-container">
                     <p id="greeting">Hi there,</p>
                     <h3 class="name">Morgan Oakley (@morgan)</h3>
                 </div>
                 <div class="header-btns">
-                    <button>New</button>
-                    <button>Upload</button>
-                    <button>Share</button>
+                    <button type="button">New</button>
+                    <button type="button">Upload</button>
+                    <button type="button">Share</button>
                 </div>
             </div>
         </div>
@@ -59,89 +59,92 @@
             <div class="projects">
                 <h3 class="section-title">Your Projects</h3>
 
-                <div class="project-card">
-                    <h3>Super Cool Project</h3>
-                    <p>Lorem ipsum</p>
-                    <img src="#" alt="favorite"><img src="#" alt="seen"><img src="#" alt="share">
-                </div>
-                <div class="project-card">
-                    <h3>Less Cool Project</h3>
-                    <p>Lorem ipsum</p>
-                    <img src="" alt=""><img src="" alt=""><img src="" alt="">
-                </div>
-                <div class="project-card">
-                    <h3>Impossible App</h3>
-                    <p>JKjklajf</p>
-                    <img src="" alt=""><img src="" alt=""><img src="" alt="">
-                </div>
-                <div class="project-card">
-                    <h3>Easy Peasy App</h3>
-                    <p></p>
-                    <img src="" alt=""><img src="" alt=""><img src="" alt="">
-                </div>
-                <div class="project-card">
-                    <h3>Ad Blocker</h3>
-                    <p></p>
-                    <img src="" alt=""><img src="" alt=""><img src="" alt="">
-                </div>
-                <div class="project-card">
-                    <h3>Money Maker</h3>
-                    <p></p>
-                    <img src="" alt=""><img src="" alt=""><img src="" alt="">
-                </div>
-            </div>
-
-            <div class="announcements-block">
-                <h3 class="section-title">Announcements</h3>
-                <div class="announcements-container">
-                    <div>
-                        <h5>Site Maintenance</h5>
-                        <p></p>
+                <div class="project-cards">
+                    <div class="project-card">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum</p>
+                        <img src="#" alt="favorite"><img src="#" alt="seen"><img src="#" alt="share">
                     </div>
-                    <div>
-                        <h5>Community Share Day</h5>
-                        <p></p>
+                    <div class="project-card">
+                        <h3>Less Cool Project</h3>
+                        <p>Lorem ipsum</p>
+                        <img src="" alt=""><img src="" alt=""><img src="" alt="">
                     </div>
-                    <div>
-                        <h5>Updated Privacy Policy</h5>
+                    <div class="project-card">
+                        <h3>Impossible App</h3>
+                        <p>JKjklajf</p>
+                        <img src="" alt=""><img src="" alt=""><img src="" alt="">
+                    </div>
+                    <div class="project-card">
+                        <h3>Easy Peasy App</h3>
                         <p></p>
+                        <img src="" alt=""><img src="" alt=""><img src="" alt="">
+                    </div>
+                    <div class="project-card">
+                        <h3>Ad Blocker</h3>
+                        <p></p>
+                        <img src="" alt=""><img src="" alt=""><img src="" alt="">
+                    </div>
+                    <div class="project-card">
+                        <h3>Money Maker</h3>
+                        <p></p>
+                        <img src="" alt=""><img src="" alt=""><img src="" alt="">
                     </div>
                 </div>
             </div>
 
-            <div class="trending">
-                <h3 class="section-title">Trending</h3>
-                <div class="trending-container">
-                    <div class="profile-block">
-                        <img src="" alt="pfp">
+            <aside>
+                <div class="announcements-block">
+                    <h3 class="section-title">Announcements</h3>
+                    <div class="announcements-container">
                         <div>
-                            <p>@teagan</p>
-                            <p>World Peace Builder</p>
+                            <h5>Site Maintenance</h5>
+                            <p></p>
                         </div>
-                    </div>
-                    <div class="profile-block">
-                        <img src="" alt="pfp">
                         <div>
-                            <p>@morgan</p>
-                            <p>Super Cool Project</p>
+                            <h5>Community Share Day</h5>
+                            <p></p>
                         </div>
-                    </div>
-                    <div class="profile-block">
-                        <img src="" alt="pfp">
                         <div>
-                            <p>@kendall</p>
-                            <p>Life Changing App</p>
-                        </div>
-                    </div>
-                    <div class="profile-block">
-                        <img src="" alt="pfp">
-                        <div>
-                            <p>@alex</p>
-                            <p>No Traffic Maker</p>
+                            <h5>Updated Privacy Policy</h5>
+                            <p></p>
                         </div>
                     </div>
                 </div>
-            </div>
+                <div class="trending">
+                    <h3 class="section-title">Trending</h3>
+                    <div class="trending-container">
+                        <div class="profile-block">
+                            <img src="" alt="pfp">
+                            <div>
+                                <p>@teagan</p>
+                                <p>World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="profile-block">
+                            <img src="" alt="pfp">
+                            <div>
+                                <p>@morgan</p>
+                                <p>Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="profile-block">
+                            <img src="" alt="pfp">
+                            <div>
+                                <p>@kendall</p>
+                                <p>Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="profile-block">
+                            <img src="" alt="pfp">
+                            <div>
+                                <p>@alex</p>
+                                <p>No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
         </div>
     </div>
 </body>
